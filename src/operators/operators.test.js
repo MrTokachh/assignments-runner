@@ -87,6 +87,8 @@ describe('complex', () => {
     expect(complex([-10, -5], [9, -3])).toBe(8e-3);
   });
 
+  // duplicate, and you should get 8e-6 ??
+
   test('complex [5, -3] and [null, 1] to equal null', () => {
     expect(complex([5, -3], [null, 1])).toBe(null);
   });
