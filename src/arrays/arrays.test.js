@@ -29,7 +29,7 @@ describe('map', () => {
   });
 
   test('map to property', () => {
-    const inputList = [{ name: 'Test1', surname: 'Test1' }, { surname: 'Test2' }, { name: 'Test3', age: 10 }, { age: 11, name: 'Test2' }];
+    const inputList = [{ name: 'Test1', surname: 'Test1' }, { name: 'Test3', age: 10 }, { age: 11, name: 'Test2' }];
     const outputList = ['Test1', 'Test3', 'Test2'];
 
     expect(mapTo(inputList, 'name')).toEqual(outputList);

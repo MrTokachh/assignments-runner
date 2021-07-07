@@ -14,9 +14,6 @@ export function add(a, b) {
   } else {
     return a + b
   }
-
-  // TODO: Remove unused code
-  throw 'Not implemented';
 }
 
 export function subtract(a, b) {
@@ -27,7 +24,6 @@ export function subtract(a, b) {
   } else {
     return a - b
   }
-  throw 'Not implemented';
 }
 
 export function complex(a, b) {
@@ -42,6 +38,4 @@ export function complex(a, b) {
     return Math.pow(base, exp)
   }
 
-  
-  throw 'Not implemented';
 }
